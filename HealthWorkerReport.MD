@@ -25,7 +25,7 @@ The goal of this app is to eliminate paper‑based reporting by enabling CHWs to
 
 ## 📝 Step‑by‑Step Build Process  
 
-### Step 1 — Designing the Data Model in Dataverse  
+### Step 1: Designing the Data Model in Dataverse  
 - Referenced **NPHCDA HMIS standard fields** to ensure real‑world relevance.  
 - Created a `Patient_Information` table with required fields:  
   - Patient Full Name  
@@ -44,7 +44,7 @@ The goal of this app is to eliminate paper‑based reporting by enabling CHWs to
 
 ---
 
-### Step 2 — Building the Power App  
+### Step 2: Building the Power App  
 - Built a **Canvas App** with two screens:  
   - **Screen 1:** Patient Visit Form with required fields and validation.  
   - **Screen 2:** Gallery of recent submissions with search and edit functionality.  
@@ -55,7 +55,7 @@ The goal of this app is to eliminate paper‑based reporting by enabling CHWs to
 
 ---
 
-### Step 3 — Entering Test Records  
+### Step 3: Entering Test Records  
 - Entered 7 test records through the app to validate the end‑to‑end pipeline.  
 - Records represented different communities, LGAs, diagnoses, and referral outcomes.  
 
@@ -69,7 +69,7 @@ The goal of this app is to eliminate paper‑based reporting by enabling CHWs to
 
 ---
 
-### Step 4 — Connecting Dataverse to Power BI  
+### Step 4: Connecting Dataverse to Power BI  
 - Imported the Dataverse table into Power BI Desktop:  
   - Get Data → Dataverse → Environment URL → Sign in → Select table → Import mode.  
 - Ensured stable connections and verified data integrity.  
@@ -83,7 +83,7 @@ The goal of this app is to eliminate paper‑based reporting by enabling CHWs to
 
 ---
 
-### Step 5 — Data Modelling with a Calendar Table  
+### Step 5: Data Modelling with a Calendar Table  
 - Created a Calendar dimension table using:  
 
 ```DAX
@@ -96,7 +96,7 @@ Built some simple measures to power KPI cards:
 
 ![My Image Description](https://github.com/R887645/Field-Reporting-App-Analytics-Dashboard-for-Community-Health-Workers/blob/main/power%20App__DAX.png?raw=true)
 
-## Step 7 — Designing the Dashboard
+## Step 7: Designing the Dashboard
 Final dashboard included:
 
 * KPI Cards: Total Visits, Communities Reached, Referrals Made, Average Age, Referral Rate %
@@ -139,7 +139,7 @@ Even with 7 test records, the dashboard demonstrated:
 ## 🏁 Conclusion
 
 This project demonstrates that low-code tools like Microsoft Power Apps and Power BI 
-are not just for corporate enterprises — they can be powerful enablers for 
+are not just for corporate enterprises, they can be powerful enablers for 
 community health organizations, NGOs, and public health agencies seeking to digitize 
 their field operations and make data-driven decisions.
 

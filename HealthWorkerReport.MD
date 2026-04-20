@@ -162,6 +162,8 @@ Power Apps and Power Pages.
 
 I believe data is most powerful when it solves real problems for real people.
 
+**[Read My Article on Medium](https://medium.com/@kehindeazeez49/how-i-built-a-digital-health-reporting-app-for-community-health-workers-in-nigeria-using-power-599bb54df5b5?postPublishedType=initial)**
+
 
 📌 PLEASE NOTE:
 - The Power App link is not accessible to external users as this was built on a 
